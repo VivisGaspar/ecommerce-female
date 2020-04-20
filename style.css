@@ -7,9 +7,10 @@
     border: none;
 }
 
-H1 {
+h1 {
     font-family: 'Playfair Display', serif;
-}
+    margin: 0;
+ }
 
 .desconto {
     width: 200px;
@@ -28,4 +29,22 @@ H1 {
 .painel-midia{
     background-color: #fff;
     height: 500px;
+}
+
+.footer {
+    background: rgb(240, 204, 210);
+}
+
+.fixed {
+    position: fixed;
+    background: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 5px;
+}
+
+.i {
+    width: 10px;
 }
